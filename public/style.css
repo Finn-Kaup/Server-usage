@@ -26,3 +26,49 @@
     --lcc:rgb(210, 226, 252);
     --lct:rgb(31, 31, 31);
 }
+
+body{
+    background-color: var(--dc1);
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+    "a b"
+    "c c"
+    "d d"
+    "e e"
+    "f f"
+    "g g";
+    margin: 10px;
+}
+
+.content{
+    background-color: var(--dc2);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+#mem1{
+    font-size: 1.125rem;
+    color: rgb(255, 255, 255);
+}
+#mem2{
+    font-size: 1rem;
+    color: rgba(180, 180, 180, 0.5);
+    margin-right: 5px;
+}
+
+#version{
+    background-color: var(--dcc);
+    grid-area: a;
+}
+#mem{
+    grid-area: b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cpu{grid-area: c;}
+#network0{grid-area: d;}
+#network1{grid-area: e;}
+#network2{grid-area: f;}
+#network3{grid-area: g;}
