@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--dct);
+    font-family: sans-serif;
+    user-select: none;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+}
+
+:root{
+    /*Dark*/
+    --dc1:rgb(19, 19, 20); 
+    --dc2:rgb(31, 32, 33);
+    --dc3:rgb(39, 41, 43);
+    --dc4:rgb(69, 71, 70);
+    --dcc:rgb(0, 74, 120);
+    --dct:rgb(227, 227, 227);
+
+    /*Light*/
+    --lc1:rgb(255, 255, 255);
+    --lc2:rgb(240, 244, 250);
+    --lc3:rgb(221, 227, 235);
+    --lc4:rgb(242, 242, 242);
+    --lcc:rgb(210, 226, 252);
+    --lct:rgb(31, 31, 31);
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Server usage",
+    "short_name": "Server usage",
+    "description": "Website to show the Server usage",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "start_url": "/index.html",
+    "scope": "/",
+    "display": "standalone"
+  }
